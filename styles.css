@@ -1,0 +1,98 @@
+body {
+	font-family: 'Courier', monospace;
+	
+	background-color: #00b0ff;
+	
+	margin: 0px;
+}
+code {
+	background-color: #bdf;
+	
+	padding: 2px;
+}
+table tr td {
+	word-wrap: break-word;
+	
+	border: 2px solid #000;
+	
+	padding: 0.5%;
+}
+.main {
+	background-color: #cef;
+	
+	padding: 10px;
+	
+	border: 8px solid #00b0ff;
+}
+.rock-image {
+	width: 20em;
+	max-width: 100%;
+}
+.page-table {
+	table-layout: fixed;
+	width: 100%;
+}
+.projects-table-images {
+	height: 15em;
+	
+	background-color: #000;
+	
+	overflow-y: auto;
+}
+.projects-table-images img {
+	width: 96%;
+	margin: 2%;
+}
+
+.pixel-img {
+	image-rendering: pixelated;
+}
+#banner {
+	width: 100%;
+	height: 150px;
+	
+	background-image: url("./images/banner.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px,0px;
+}
+#banner div {
+	text-align: center;
+	
+	width: 100%;
+	height: 100%;
+	
+	background-color: rgba(0,0,0,0.5);
+	
+	padding-top: 30px;
+	
+	overflow-y: auto;
+}
+#banner div a {
+	color: #fff;
+	font-size: 20px;
+}
+#projects-name {
+	width: 10%;
+}
+#projects-links {
+	width: 10%
+}
+#projects-images {
+	width: 25%;
+}
+#projects-desc {
+	width: 20%;
+}
+#projects-ideas {
+	width: 35%;
+}
+#commands-video {
+	width: 20%;
+}
+#commands {
+	width: 80%;
+}
+#downloadables {
+	width: 50%;
+}
