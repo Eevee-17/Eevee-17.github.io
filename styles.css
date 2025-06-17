@@ -10,6 +10,9 @@ code {
 	
 	padding: 2px;
 }
+a {
+	color: #01a;
+}
 table tr td {
 	word-wrap: break-word;
 	
